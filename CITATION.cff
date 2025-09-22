@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Si utilizas este código, por favor cita este trabajo de título."
+title: "Clasificación de nubes de puntos ALS mediante algoritmos de aprendizaje automático"
+title-en: "Classification of ALS point clouds using machine learning algorithms"
+authors:
+  - family-names: Bórquez Ávila
+    given-names: José Luis
+    affiliation: Universidad Mayor
+    orcid: ""  # Aún no disponible
+date-released: 2025-09-22
+version: "1.0.0"
+license: MIT
+repository-code: https://github.com/joseborquez-web/ALS-multiescala-ML-R
+url: https://github.com/joseborquez-web/ALS-multiescala-ML-R
+abstract: >
+  Este repositorio contiene los scripts R asociados al trabajo de título del Magíster en Teledetección de la Universidad Mayor, titulado “Clasificación de nubes de puntos ALS mediante algoritmos de aprendizaje automático”. El estudio implementa un flujo metodológico multiescalar para la clasificación de coberturas estructuralmente complejas y desbalanceadas (como aerogeneradores, paneles solares y cables) a partir de nubes de puntos LiDAR aéreo (ALS) del sureste español. 
+
+  Se generaron más de 60 métricas geométricas, radiométricas y estructurales a escalas de vecindad 2, 3 y 4 mediante procesos por lotes en CloudCompare, y su posterior selección se basó en correlación de Pearson y autocorrelación espacial (índice de Moran) y seleccion por familia de metricas. 
+
+Los modelos se entrenaron con algoritmos de aprendizaje automátic (Random Forest, LightGBM, XGBoost y CatBoost).
+
+El flujo metodológico replicable combina la selección de métricas multiescalares con algoritmos de machine learning, particularmente aquellos robustos ante el desbalance de clases. Este enfoque optimiza la detección de coberturas especializadas y escasamente representadas, favorece su aplicación en análisis territoriales y contribuye a reducir los elevados costos asociados a la clasificación manual de nubes de puntos LiDAR.
